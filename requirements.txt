@@ -2,7 +2,5 @@ streamlit
 datetime
 yfinance
 prophet
-prophet.plot
 plotly
-plotly.subplots
-matplotlib.pyplot
+matplotlib
