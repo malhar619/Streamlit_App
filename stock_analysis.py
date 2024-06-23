@@ -66,6 +66,8 @@ else:
         fig.update_layout(xaxis_rangeslider_visible=False)
         st.plotly_chart(fig)
 
+
+
         # Chart with 100MA & 200MA
         st.subheader('Closing Price vs Time Chart with 100MA & 200MA')
         ma100 = filtered_data.Close.rolling(100).mean()
